@@ -1,0 +1,229 @@
+/* table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+} */
+
+table {
+  width: 60%;
+}
+
+* {
+  font-family: "Rockwell";
+}
+
+.imageContainer {
+  background-color: #eef2ffca;
+  margin: 2em 1.5em 0em 1.5em;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 5%;
+}
+
+#preview {
+  height: 90%;
+  width: 90%;
+  border: none;
+  background-color: lightGrey;
+  border-radius: 100%;
+  margin-bottom: 0.8em;
+}
+
+/* Style the body */
+body {
+  margin: 0;
+  text-align: center;
+}
+
+/* Header/Logo Title */
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5em;
+  background: #758bcdca;
+  color: rgb(255, 255, 255);
+  font-size: 0.5em;
+}
+
+#header {
+  background: #758bcdca;
+}
+
+#headerLogo {
+  margin-left: 0.8rem;
+  margin-top: 0.2rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  background-color: lightGrey;
+  border-radius: 100%;
+}
+
+.nav-item{
+  padding-right: 1em;
+}
+
+#preview {
+  width:25%;
+  height:25%;
+  
+}
+
+to do list table #toDoList {
+  border: none;
+}
+
+textarea {
+  width: 30%;
+  height: 50%;
+}
+
+#entryName,
+#entryName:focus {
+  outline: none;
+  border: none;
+  background-color: rgb(247, 249, 255);
+  margin-bottom: 0.5em;
+  width: 90%;
+  height: 10%;
+  font-size: 1.2rem;
+}
+
+.tasksContainer,
+.listContainer,
+.buttonsContainer {
+  margin: 1.5rem;
+  margin-bottom: 0.2rem;
+  position: relative;
+  overflow: hidden;
+}
+.taskEntry,
+.taskEntryNew,
+.todoListEntry {
+  margin: 5px auto;
+  background: rgb(235, 239, 246);
+  color: #000000;
+  display: flex;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.taskEntryNew {
+  background: rgb(234, 243, 237);
+}
+
+.addTaskBtn,
+.addList,
+.addNote,
+.edit_btn,
+.Add_btn,
+.Update_btn,
+.delete_btn {
+  padding: 0.5rem;
+  background: #ff8664;
+  color: rgb(0, 0, 0);
+  border: none;
+  margin-left: 0.2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 15%;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05), 0 2px 5px 0 rgba(0, 0, 0, 0.08);
+}
+.addTaskBtn:hover,
+.Add_btn:hover,
+.Update_btn:hover,
+.addList:hover,
+.addNote:hover,
+.edit_btn:hover,
+.delete_btn:hover {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.14);
+}
+
+.delete_btn:active {
+  background: #e57b5e;
+}
+.edit_btn {
+  background: rgb(185, 226, 102);
+  /* background-image: url("../../resource/edit.png"); */
+}
+.edit_btn:active {
+  background: rgb(154, 200, 89);
+}
+
+.Update_btn {
+  background: rgb(174, 223, 252);
+}
+.Update_btn:active {
+  background: rgb(161, 204, 229);
+}
+.Add_btn {
+  background: rgb(223, 250, 196);
+}
+.Add_btn:active {
+  background: rgb(205, 229, 180);
+}
+
+.addTaskBtn {
+  margin-top: 0em;
+  margin-bottom: 2em;
+  background: rgb(255, 247, 100);
+}
+.addTaskBtn:active {
+  background: rgb(241, 234, 96);
+}
+
+#addList {
+  background: #fbfdb9;
+}
+#addNote {
+  background: #e7f8eb;
+}
+
+#addList:active {
+  background: #edf0a0;
+}
+#addNote:active {
+  background: #cee2d2;
+}
+
+.inputTaskDetail,
+.inputTaskDetail:focus {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 90%;
+  height: 90%;
+  font-size: 1.2rem;
+  margin-left: 0.3rem;
+}
+
+#loginDiv {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+}
+
+#error {
+  color: red;
+}
+
+#wrongInput {
+  color:red;
+}
+
+#userName {
+  color: white;
+}
+
